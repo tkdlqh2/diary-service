@@ -15,8 +15,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
-@PreAuthorize("hasAuthority('USER')")
-@SecurityRequirement(name = "Authorization")
+//@PreAuthorize("hasAuthority('USER')")
+//@SecurityRequirement(name = "Authorization")
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/diary-comments")

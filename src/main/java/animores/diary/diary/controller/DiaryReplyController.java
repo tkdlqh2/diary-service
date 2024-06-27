@@ -13,6 +13,8 @@ import io.swagger.v3.oas.annotations.Parameter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
+//@PreAuthorize("hasAuthority('USER')")
+//@SecurityRequirement(name = "Authorization")
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/diary-reply")
