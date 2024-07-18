@@ -40,7 +40,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          platforms: linux/amd64,linux/arm64
+          context: .
           push: true
-          target: final
           tags: ${{ secrets.DOCKER_USERNAME }}/animores-diary:latest
