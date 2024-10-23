@@ -58,6 +58,7 @@ public class DiaryCommentServiceImpl implements DiaryCommentService {
         // 상위 댓글 먼저 삭제될 시 하위 댓글 어떻게 처리할지 고민
         // 1. 상위 댓글을 "삭제된 댓글입니다"로 보여주고 하위 댓글 노출 유지
         // 2. 상위 댓글과 함께 하위 댓글 삭제
+        //dfdf
 
         authorizationService.validateDiaryCommentAccess(diaryComment, profile);
 
